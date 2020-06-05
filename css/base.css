@@ -1,0 +1,35 @@
+html{
+  display: flex;
+  justify-content: center;
+  
+}
+
+ body {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+/* Tablet */
+/* @media only screen and (max-width: 960px){
+  body {
+    width: 960px;
+  }
+}  */
+
+/* Desktop */
+/* @media only screen and (min-width: 768px){
+  body {
+    width: 960px;
+  } */
+
+@media screen and (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 736px) {
+  body {
+    max-width: 480px;
+  }
+}
